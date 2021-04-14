@@ -35,6 +35,8 @@ You should already have installed the following before starting the setup:
 }, }, }, ], }, };`
 
 6. Open the **angular.json** file in your root folder (it already exists) to apply the extra webpack config to generate Tailwind styles during `ng build`, `ng serve` and `ng test`.
+
+
 ![angular.json](https://raw.githubusercontent.com/eicul04/tailwindcss/main/angular-json.png)
 
 > Image source: https://notiz.dev/blog/angular-10-with-tailwindcss#setup
@@ -48,6 +50,8 @@ You should already have installed the following before starting the setup:
  ` @import "tailwindcss/base";`
  `@import "tailwindcss/components";`
  `@import "tailwindcss/utilities";`
+
+
 
 Now you can start using the Tailwind utility classes - Have fun! 🎉
 
